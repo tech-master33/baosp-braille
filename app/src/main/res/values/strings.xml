@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">BAOSP Braille</string>
+
+    <!-- Status labels -->
+    <string name="service_active">BAOSP Braille service: active</string>
+    <string name="service_inactive">BAOSP Braille service: not enabled</string>
+    <string name="service_inactive_desc">BAOSP Braille service is not enabled. Tap \'Open Accessibility Settings\' to enable it.</string>
+    <string name="bluetooth_on">Bluetooth: on</string>
+    <string name="bluetooth_on_desc">Bluetooth is on. Tap \'Scan for display\' to connect.</string>
+    <string name="bluetooth_off">Bluetooth: off</string>
+    <string name="bluetooth_off_desc">Bluetooth is off. Turn on Bluetooth and then tap \'Scan for display\'.</string>
+    <string name="display_connected">Display connected: %1$s</string>
+    <string name="no_display_paired">No Braille display paired. Pair your display in Bluetooth settings.</string>
+    <string name="display_found">Braille display found</string>
+    <string name="unknown_display">Unknown display</string>
+    <string name="no_permission">Bluetooth permission not granted</string>
+
+    <!-- Buttons -->
+    <string name="btn_accessibility">Open Accessibility Settings</string>
+    <string name="btn_scan">Scan for Braille display</string>
+    <string name="grade1">Grade 1 Braille</string>
+    <string name="grade2">Grade 2 Braille</string>
+    <string name="braille_grade_desc">Braille translation mode: %1$s. Tap to toggle.</string>
+
+    <!-- Announcements -->
+    <string name="opening_accessibility">Opening accessibility settings</string>
+    <string name="opening_bluetooth">Opening Bluetooth settings</string>
+    <string name="grade_changed">Braille grade changed to %1$s</string>
+
+    <!-- Activity headings -->
+    <string name="heading_connection">Connection</string>
+    <string name="heading_settings">Settings</string>
+</resources>
