@@ -1,0 +1,9 @@
+<resources>
+    <color name="baosp_blue">#1565C0</color>
+    <color name="baosp_blue_dark">#0D47A1</color>
+    <color name="baosp_teal">#00BCD4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey_light">#BDBDBD</color>
+    <color name="surface_dark">#121212</color>
+</resources>
