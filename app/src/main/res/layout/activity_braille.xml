@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:importantForAccessibility="yes">
+
+        <!-- ── Section: Connection ── -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/heading_connection"
+            android:textSize="22sp"
+            android:textColor="@color/baosp_teal"
+            android:textStyle="bold"
+            android:accessibilityHeading="true"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Service status -->
+        <TextView
+            android:id="@+id/text_service_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/service_inactive"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:minHeight="48dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Bluetooth status -->
+        <TextView
+            android:id="@+id/text_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bluetooth_off"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:minHeight="48dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Display name -->
+        <TextView
+            android:id="@+id/text_display_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_display_paired"
+            android:textSize="18sp"
+            android:textColor="@color/grey_light"
+            android:minHeight="48dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Open Accessibility Settings -->
+        <Button
+            android:id="@+id/btn_open_accessibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_accessibility"
+            android:textSize="18sp"
+            android:minHeight="64dp"
+            android:layout_marginBottom="12dp"
+            app:cornerRadius="8dp" />
+
+        <!-- Scan for display -->
+        <Button
+            android:id="@+id/btn_scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_scan"
+            android:textSize="18sp"
+            android:minHeight="64dp"
+            android:layout_marginBottom="24dp"
+            app:cornerRadius="8dp" />
+
+        <!-- ── Section: Settings ── -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/heading_settings"
+            android:textSize="22sp"
+            android:textColor="@color/baosp_teal"
+            android:textStyle="bold"
+            android:accessibilityHeading="true"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Grade toggle -->
+        <Button
+            android:id="@+id/btn_grade_toggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/grade1"
+            android:textSize="18sp"
+            android:minHeight="64dp"
+            android:contentDescription="@string/grade1"
+            app:cornerRadius="8dp" />
+
+    </LinearLayout>
+</ScrollView>
